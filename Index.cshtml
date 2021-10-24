@@ -1,0 +1,38 @@
+@page
+
+@{
+    double lado = 5;
+    double altura = 10;
+    double perimetro = Application.Cuadrado.Perimetro(lado);
+    double area = Application.Cuadrado.Area(lado);
+    double volumen = Application.PrismaCuadrangular.Volumen(area, altura);
+}
+
+
+<head>
+		<title>Proyecto Bimestral Ingeniería de Software</title>
+	</head>
+	<body>
+
+			<div style="text-indent:5%"> <img src= "https://laudex.mx/images/universities/logos/Unitec.png" width="200px" align="center"><font face="times new roman" size=7 color="blue">Universidad Tecnol&oacute;gica de M&eacute;xico Campus Sur</font></div> 
+
+				<h1><p style="text-align:center"><font face="times new roman" size="6" color="red">Proyecto Bimestral Ingenier&iacute;a de Software</font></p></h1>
+		
+				<h2> <div style="text-indent: 71pt;"><font face="times new roman" size="5" >Equipo 2:Blancas Alvarado Lizeth Sarai </font><br></div>
+		
+					<div style="text-indent: 15%;"><font face="times new roman" size="5" >Guillen Gonzalez Oscar </font><br></div>
+			
+					<div style="text-indent: 15%;"><font face="times new roman" size="5" >Mu&ntilde;oz Borja Ulises </font><br></div>
+		
+					<div style="text-indent: 15%;"><font face="times new roman" size="5" >Rivera Andrada Jes&uacute;s Esteban </font><br></div></h2>
+		
+				<h3><div style="text-indent:2%"> Figura geom&eacute;trica seleccionada:  <u>Rect&aacute;ngulo</u></div></h3>
+
+            <p style="text-indent: 1.5%"><font face="times new roman" size="4.5"> El per&iacute;metro de la base de un Prisma Rectangular de @(lado)cm por lado es <strong><u>@(perimetro)cm
+            </strong></u></font></p>
+            <p style="text-indent: 1.5%"><font face="times new roman" size="4.5"></font>El &aacute;rea de la base de un Prisma Rectangular de @(lado)cm por lado es <strong><u>@(area)cm2
+            </strong></u></font></p>
+            <p style="text-indent: 1.5%"><font face="times new roman" size="4.5"></font>El vol&uacute;men un Prisma Rectangular con un área de la base de @(area)cm2 y @(altura)cm de altura es <strong><u>@(volumen)cm3
+            </strong></u></font></p>
+
+	</body>
